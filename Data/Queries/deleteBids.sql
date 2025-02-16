@@ -1,0 +1,1 @@
+DELETE FROM Bids WHERE Id = 8;
