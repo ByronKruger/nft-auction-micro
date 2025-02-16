@@ -1,0 +1,6 @@
+@NftAuction.Api_HostAddress = http://localhost:5237
+
+GET {{NftAuction.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
