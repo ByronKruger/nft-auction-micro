@@ -18,7 +18,7 @@ public static class Setup
             ))
         .WithTracing(tracing => tracing
             .AddSource(appName)
-            .AddAspNetCoreInstrumnetation()
+            .AddAspNetCoreInstrumentation()
             .AddHttpClientInstrumentation()
             .AddConsoleExporter());
 
