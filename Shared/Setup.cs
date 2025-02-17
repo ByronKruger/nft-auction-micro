@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using OpenTelemetry.Trace;
 using OpenTelemetry.Resources;
-using CloudinaryDotNet.Actions;
 
 namespace Shared;
 
