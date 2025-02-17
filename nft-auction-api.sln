@@ -1,8 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NftAuction.Api", "NftAuction.Api.csproj", "{138F823F-5BE9-E1E0-6C7D-CF8C94CDE4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement.Api\UserManagement.csproj", "{3B2FBF87-3197-4604-AD5D-309C04B626E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{114CA923-982F-43E7-A037-C76A638B3DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +18,14 @@ Global
 		{138F823F-5BE9-E1E0-6C7D-CF8C94CDE4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{138F823F-5BE9-E1E0-6C7D-CF8C94CDE4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138F823F-5BE9-E1E0-6C7D-CF8C94CDE4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2FBF87-3197-4604-AD5D-309C04B626E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2FBF87-3197-4604-AD5D-309C04B626E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2FBF87-3197-4604-AD5D-309C04B626E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2FBF87-3197-4604-AD5D-309C04B626E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114CA923-982F-43E7-A037-C76A638B3DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114CA923-982F-43E7-A037-C76A638B3DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114CA923-982F-43E7-A037-C76A638B3DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114CA923-982F-43E7-A037-C76A638B3DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
